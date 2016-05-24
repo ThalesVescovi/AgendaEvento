@@ -1,4 +1,4 @@
-package org.makeit.datebook.model;
+package org.makeit.datebook.model.persons;
 
 import java.util.ArrayList;
 
