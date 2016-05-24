@@ -1,4 +1,4 @@
-package org.makeit.datebook.model.persons;
+package org.makeit.datebook.persons.relations;
 
 public class Relationship {
     private Category category;

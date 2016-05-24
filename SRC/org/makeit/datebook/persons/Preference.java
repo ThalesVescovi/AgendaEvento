@@ -1,4 +1,4 @@
-package org.makeit.datebook.model.persons;
+package org.makeit.datebook.persons;
 
 public class Preference {
     private String description;
