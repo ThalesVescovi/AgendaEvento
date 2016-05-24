@@ -3,40 +3,90 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="24.25" y="394.0">org.makeit.datebook.model.Preferences</node>
-    <node x="54.75" y="168.0">org.makeit.datebook.model.Relationship</node>
-    <node x="14.75" y="292.0">org.makeit.datebook.model.Contact</node>
-    <node x="155.0" y="11.0">org.makeit.datebook.model.Category</node>
-    <node x="0.0" y="0.0">org.makeit.datebook.model.Proximity</node>
+    <node x="169.25" y="438.0">org.makeit.datebook.model.Contact</node>
+    <node x="326.0" y="22.0">org.makeit.datebook.model.Friend</node>
+    <node x="0.0" y="11.0">org.makeit.datebook.model.Family</node>
+    <node x="260.25" y="314.0">org.makeit.datebook.model.Genre</node>
+    <node x="471.25" y="325.0">org.makeit.datebook.model.Preference</node>
+    <node x="176.63888888888889" y="168.0">org.makeit.datebook.model.Category</node>
+    <node x="430.5" y="584.0">org.makeit.datebook.model.Datebook</node>
+    <node x="703.25" y="449.0">org.makeit.datebook.model.Event</node>
+    <node x="68.25" y="314.0">org.makeit.datebook.model.Relationship</node>
+    <node x="481.25" y="460.0">org.makeit.datebook.model.Collection</node>
+    <node x="169.0" y="0.0">org.makeit.datebook.model.Coworker</node>
+    <node x="1.6388888888889142" y="124.0">org.makeit.datebook.model.Proximity</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="org.makeit.datebook.model.Datebook" target="org.makeit.datebook.model.Contact">
+      <point x="-56.75" y="-37.0" />
+      <point x="487.25" y="559.0" />
+      <point x="315.25" y="559.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
     <edge source="org.makeit.datebook.model.Contact" target="org.makeit.datebook.model.Relationship">
-      <point x="0.0" y="-26.0" />
+      <point x="-97.33333333333331" y="-48.0" />
+      <point x="217.91666666666669" y="413.0" />
+      <point x="154.25" y="413.0" />
       <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Family" target="org.makeit.datebook.model.Category">
+      <point x="-45.99999999999997" y="-26.0" />
+      <point x="199.6388888888889" y="99.0" />
+      <point x="74.5" y="99.0" />
+      <point x="0.0" y="26.0" />
     </edge>
     <edge source="org.makeit.datebook.model.Relationship" target="org.makeit.datebook.model.Category">
       <point x="43.0" y="-37.0" />
-      <point x="183.75" y="143.0" />
-      <point x="214.0" y="143.0" />
-      <point x="0.0" y="48.0" />
-    </edge>
-    <edge source="org.makeit.datebook.model.Preferences" target="org.makeit.datebook.model.Contact">
-      <point x="0.0" y="-26.0" />
+      <point x="197.25" y="289.0" />
+      <point x="245.63888888888889" y="289.0" />
       <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Friend" target="org.makeit.datebook.model.Category">
+      <point x="46.00000000000003" y="-26.0" />
+      <point x="291.6388888888889" y="99.0" />
+      <point x="359.5" y="99.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Contact" target="org.makeit.datebook.model.Preference">
+      <point x="97.33333333333331" y="-48.0" />
+      <point x="412.5833333333333" y="413.0" />
+      <point x="508.25" y="413.0" />
+      <point x="-37.0" y="26.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Contact" target="org.makeit.datebook.model.Genre">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Collection" target="org.makeit.datebook.model.Preference">
+      <point x="0.0" y="-26.0" />
+      <point x="37.0" y="26.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Datebook" target="org.makeit.datebook.model.Event">
+      <point x="56.75" y="-37.0" />
+      <point x="600.75" y="559.0" />
+      <point x="772.75" y="559.0" />
+      <point x="0.0" y="37.0" />
     </edge>
     <edge source="org.makeit.datebook.model.Relationship" target="org.makeit.datebook.model.Proximity">
       <point x="-43.0" y="-37.0" />
-      <point x="97.75" y="143.0" />
-      <point x="67.5" y="143.0" />
-      <point x="0.0" y="59.0" />
+      <point x="111.25" y="289.0" />
+      <point x="79.13888888888891" y="289.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Coworker" target="org.makeit.datebook.model.Category">
+      <point x="2.8421709430404007E-14" y="-26.0" />
+      <point x="245.6388888888889" y="99.0" />
+      <point x="237.5" y="99.0" />
+      <point x="0.0" y="37.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="136.5" y="223.0" />
+  <settings layout="Hierarchic Group" zoom="0.6548672566371682" x="421.5" y="329.0" />
   <SelectedNodes />
   <Categories>
-    <Category>Fields</Category>
     <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
