@@ -2,6 +2,8 @@ package org.makeit.datebook.model;
 
 import java.util.ArrayList;
 
-public class Contact {
+public abstract class Contact {
     private ArrayList<Relationship> relationships;
+    private ArrayList<Preference> preferences;
+    private Genre genre;
 }
