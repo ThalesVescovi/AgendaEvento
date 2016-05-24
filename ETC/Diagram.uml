@@ -2,12 +2,43 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="24.25" y="394.0">org.makeit.datebook.model.Preferences</node>
+    <node x="54.75" y="168.0">org.makeit.datebook.model.Relationship</node>
+    <node x="14.75" y="292.0">org.makeit.datebook.model.Contact</node>
+    <node x="155.0" y="11.0">org.makeit.datebook.model.Category</node>
+    <node x="0.0" y="0.0">org.makeit.datebook.model.Proximity</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <edges>
+    <edge source="org.makeit.datebook.model.Contact" target="org.makeit.datebook.model.Relationship">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Relationship" target="org.makeit.datebook.model.Category">
+      <point x="43.0" y="-37.0" />
+      <point x="183.75" y="143.0" />
+      <point x="214.0" y="143.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Preferences" target="org.makeit.datebook.model.Contact">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.makeit.datebook.model.Relationship" target="org.makeit.datebook.model.Proximity">
+      <point x="-43.0" y="-37.0" />
+      <point x="97.75" y="143.0" />
+      <point x="67.5" y="143.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="136.5" y="223.0" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 
