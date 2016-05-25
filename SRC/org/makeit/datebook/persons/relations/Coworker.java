@@ -1,9 +1,6 @@
 package org.makeit.datebook.persons.relations;
 
-/**
- * Created by 20132BSI0168 on 24/05/2016.
- */
-public class Coworker extends Category {
+public class Coworker extends Group {
     private String place;
     private String profession;
 
@@ -24,7 +21,7 @@ public class Coworker extends Category {
     }
 
     @Override
-    public String getCategory() {
-        return "Coworker";
+    public Categories getDescription() {
+        return Categories.Colega;
     }
 }

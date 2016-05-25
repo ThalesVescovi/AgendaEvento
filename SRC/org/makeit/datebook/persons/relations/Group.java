@@ -1,9 +1,13 @@
 package org.makeit.datebook.persons.relations;
 
-public abstract class Category {
+public abstract class Group {
     private String reference;
 
-    public abstract String getCategory();
+    public enum Categories {
+        Familia, Amigo, Colega
+    }
+
+    public abstract Categories getDescription();
 
     public void setReference(String reference) {
         this.reference = reference;

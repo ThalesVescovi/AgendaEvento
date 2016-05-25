@@ -1,8 +1,9 @@
 package org.makeit.datebook.persons.relations;
 
-public class Friend extends Category {
+public class Friend extends Group {
+
     @Override
-    public String getCategory() {
-        return "Friend";
+    public Categories getDescription() {
+        return Categories.Amigo;
     }
 }

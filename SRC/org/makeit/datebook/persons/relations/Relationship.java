@@ -1,16 +1,19 @@
 package org.makeit.datebook.persons.relations;
 
 public class Relationship {
+    private Group group;
+    private Proximity proximity;
 
     public enum Proximity {
         Intimo, Proximo, Regular, Distante, Incompativel
     }
 
-    private Category category;
-    private Proximity proximity;
-
-    public Relationship(Category c, Proximity p) {
-        category = c;
+    public Relationship(Group c, Proximity p) {
+        group = c;
         proximity = p;
+    }
+
+    public Group getGroup() {
+        return group;
     }
 }

@@ -9,7 +9,7 @@ public class Main {
         f.setReference("Um primo random");
 
         System.out.println(
-                f.getCategory() + "\n" +
+                f.getDescription() + "\n" +
                         f.getReference()
         );
     }

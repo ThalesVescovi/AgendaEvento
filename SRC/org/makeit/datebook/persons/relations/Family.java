@@ -3,7 +3,7 @@ package org.makeit.datebook.persons.relations;
 /**
  * Created by 20132BSI0168 on 24/05/2016.
  */
-public class Family extends Category {
+public class Family extends Group {
     private String connection;
 
     public String getConnection() {
@@ -14,8 +14,7 @@ public class Family extends Category {
         this.connection = connection;
     }
 
-    @Override
-    public String getCategory() {
-        return "Family";
+    public Categories getDescription() {
+        return Categories.Familia;
     }
 }
