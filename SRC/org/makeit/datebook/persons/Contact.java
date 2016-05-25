@@ -4,7 +4,7 @@ import org.makeit.datebook.persons.relations.Relationship;
 
 import java.util.ArrayList;
 
-public abstract class Contact {
+public class Contact {
 
     public enum Genre {
         Feminino, Masculino
