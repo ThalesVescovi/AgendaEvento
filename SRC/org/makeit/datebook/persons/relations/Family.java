@@ -5,4 +5,17 @@ package org.makeit.datebook.persons.relations;
  */
 public class Family extends Category {
     private String connection;
+
+    public String getConnection() {
+        return connection;
+    }
+
+    public void setConnection(String connection) {
+        this.connection = connection;
+    }
+
+    @Override
+    public String getCategory() {
+        return "Family";
+    }
 }
