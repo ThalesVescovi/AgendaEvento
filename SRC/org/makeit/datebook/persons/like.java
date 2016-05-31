@@ -1,5 +1,5 @@
 package org.makeit.datebook.persons;
 
-public class Preference {
+public class Like {
     private String description;
 }

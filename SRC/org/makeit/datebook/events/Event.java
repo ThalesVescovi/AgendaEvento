@@ -1,25 +1,25 @@
 package org.makeit.datebook.events;
 
 import org.makeit.datebook.persons.Contact;
-import org.makeit.datebook.persons.Preference;
+import org.makeit.datebook.persons.Like;
 
 import java.util.ArrayList;
 
 public class Event {
     private String description;
     private String name;
-    private ArrayList<Preference> preferences;
+    private ArrayList<Like> likes;
     private ArrayList<Contact> contacts;
 
-    public void addPreference(Preference p) {
-        if (!preferences.contains(p)) {
-            preferences.add(p);
+    public void addPreference(Like p) {
+        if (!likes.contains(p)) {
+            likes.add(p);
         }
     }
 
-    public void removePreference(Preference p) {
-        if (preferences.contains(p)) {
-            preferences.add(p);
+    public void removePreference(Like p) {
+        if (likes.contains(p)) {
+            likes.add(p);
         }
     }
 

@@ -1,9 +1,8 @@
 package org.makeit.datebook.persons.relations;
 
-public class Friend extends Group {
+import org.makeit.datebook.persons.Contact;
 
-    @Override
-    public Categories getDescription() {
-        return Categories.Amigo;
-    }
+public class Friend extends Contact {
+    private String reference;
+
 }

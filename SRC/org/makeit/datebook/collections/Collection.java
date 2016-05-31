@@ -1,9 +1,9 @@
 package org.makeit.datebook.collections;
 
-import org.makeit.datebook.persons.Preference;
+import org.makeit.datebook.persons.Like;
 
 import java.util.ArrayList;
 
 public class Collection {
-    private static ArrayList<Preference> prefs;
+    private static ArrayList<Like> prefs;
 }
